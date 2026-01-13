@@ -1,20 +1,17 @@
+
+
 # ===== Face Recognition Sensitive Data =====
 
 # Virtual environment
 .venv/
-venv/
 
 # Employee face images (privacy)
-employees/
+employees/*
+!employees/.gitkeep
 
 # Face embeddings (biometric data)
-gallery/*.npz
-gallery/*.pkl
-gallery/*.bin
+gallery/*
+!gallery/.gitkeep
 
 # InsightFace model cache
 .insightface/
-
-# Local outputs
-output/
-temp/
