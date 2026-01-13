@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Face recognition private data
+employees/*
+gallery/*
+!employees/.gitkeep
+!gallery/.gitkeep
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
